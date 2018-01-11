@@ -2,37 +2,42 @@
 <html>
 <head>
 	<meta charset="utf-8" lang="es">
-	<title>My second</title>
+	<title>Primer ejercicio</title>
 	<style>
 		#navBar{
 			padding-top: 20px;
 			padding-bottom: 20px;
-			background-color: #162522;
+			background-color: cornflowerblue;
 			width: auto;
 			height: auto;
-			text-align: center;
+			text-align: right;
+			opacity: .65;
 		}
 		a{
-			color: #040f0b;
+			color:#06053B;
+			font-weight: bold;
 			padding: 5px;
 			margin-right: 30px;
 			border-radius: 10px;
-			border: 2px solid #f1bb85;
+			border: 2px solid #00032F;
 			background-color: white;
 			font-size: 16px;
-			font-family: "Lucida Sans";
+			font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+			opacity: 1;
+			font-style: italic;
+		}
+		section{
+			color: #06053B;
 		}
 		article{
 			text-align: justify;
-			color: #040f0b;
+			color:#1D35A3;
 			font-size: 18px;			
 			font-family: "Arial ";
-		}
-		section{
-			color: #a56c48;
-		}
+			opacity: 0.9;
+		}		
 		footer{
-			background-color: #722827;
+			background-color: #00032F;
 			color: white;
 			font-size: 13px;
 			font-family: "Times New Roman";
@@ -40,18 +45,21 @@
 			padding-bottom: 2px;
 		}
 		body{
-			background: #f1bb85;
+			background-color: lightgoldenrodyellow;
 		}
+		#name{
+			font-family:  Haettenschweiler;
 	</style>
 </head>
 <body>
 <header>
 	<div id="navBar">
-		<a href="#section1" title="Hola">Ver sección 1</a>
-		<a href="#bottom">Ver sección 4</a>
+		<a href="#section1" >Ver sección 1</a>
+		<a href="#section2" >Ver sección 2</a>
+		<a href="#section3" >Ver sección 3</a>
+		<a href="#bottom">Ver sección 4</a>		
 	</div>
-</header>	
-<div>
+</header>
 	<section id="section1">
 	<h1>Sección 1</h1>
 	<hr>
@@ -96,10 +104,10 @@
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</article>
 </section>
-</div>
 <footer>
 	<hr>
 	<p id="foot">Todos los derechos reservados 2018 &copy Copyright</p>
+	<p> Designed by <span id="name">Yennifer Herrera</span></p>
 </footer>
 </body>
 </html>
