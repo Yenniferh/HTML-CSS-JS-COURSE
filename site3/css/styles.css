@@ -1,0 +1,24 @@
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.row > div{
+	background-color: lightgrey;
+	font-size: 18px;
+	color: blue;
+	border: 2px solid lightblue;
+}
+.row{
+	margin-bottom: 5px;
+}
+.row > .jumbotron{
+	margin-right: 6px;
+	margin-left: 6px;
+	opacity: 0.85;
+	color: black;
+	border-radius: 7px;
+	border: 2px solid #02001F;
+}
